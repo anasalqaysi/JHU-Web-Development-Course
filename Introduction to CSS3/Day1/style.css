@@ -1,0 +1,42 @@
+:root {
+    --bg-main: #0F172A;
+    --card-bg: #1E293B;
+    --text-primary: #F8FAFC;
+    --accent: #38BDF8;
+    --highlight: #F59E0B;
+}
+body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: sans-serif;  
+    text-align: center;  
+}
+header {
+    padding: 40px 20px;
+}
+img {
+    border-radius: 50%;  
+}
+nav ul {
+    list-style: none;     
+    padding: 0;
+    justify-content: center; 
+    gap: 20px;                      
+}
+nav a {
+    color: var(--text-primary);     
+    text-decoration: none;           
+}
+nav a:hover {
+    color: var(--accent);             
+}
+main {
+    text-align: right;
+}
+h2 {
+    color: var(--highlight);
+    padding-right: 15px;
+}
+p{
+    padding-right: 15px;
+}
